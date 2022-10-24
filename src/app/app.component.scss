@@ -1,0 +1,38 @@
+.main-content {
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+@media (min-width: 1240px) {
+  .main-content {
+    padding-bottom: 65px;
+  }
+}
+
+@media (max-width: 1240px) {
+  .main-content {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main-content {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+}
+
+@media (max-width: 600px) {
+  .main-content {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+@media (max-width: 440px) {
+  .main-content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

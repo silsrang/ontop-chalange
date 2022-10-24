@@ -1,0 +1,175 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root {
+  --pink: #ff5a70;
+  --darkGray: #898989;
+  --lightGray: #c4c4c4;
+  --black: #000000;
+  --gray: #bebebe;
+  --tableText: #3b3b3b;
+  --backgroudGray: #f9f9f9;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body {
+  height: 100%;
+  padding-top: 65px;
+  font-family: aileron, sans-serif;
+  background-color: var(--backgroudGray);
+}
+
+//Padding
+
+// padding 6px
+
+.pb-6 {
+  padding-bottom: 6px;
+}
+
+// padding 8px
+.pl-8 {
+  padding-left: 8px;
+}
+.pr-8 {
+  padding-right: 8px;
+}
+.pb-8 {
+  padding-bottom: 8px;
+}
+.pt-8 {
+  padding-top: 8px;
+}
+
+// padding 10px
+.pl-10 {
+  padding-left: 10px;
+}
+.pr-10 {
+  padding-right: 10px;
+}
+.pb-10 {
+  padding-bottom: 10px;
+}
+.pt-10 {
+  padding-top: 10px;
+}
+
+//Margins
+
+//margin-right
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.mr-40 {
+  margin-right: 40px;
+}
+
+.mr-50 {
+  margin-right: 50px;
+}
+
+//left
+//margin-left
+.ml-10 {
+  margin-left: 10px;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.ml-30 {
+  margin-left: 30px;
+}
+
+.ml-40 {
+  margin-left: 40px;
+}
+
+.ml-50 {
+  margin-left: 50px;
+}
+
+//font-size
+
+.f-12 {
+  font-size: 12px;
+}
+
+.f-14 {
+  font-size: 14px;
+}
+
+.f-16 {
+  font-size: 16px;
+}
+
+.f-18 {
+  font-size: 18px;
+}
+
+.f-32 {
+  font-size: 32px;
+}
+
+//font weight
+
+.f-bold {
+  font-weight: 700;
+}
+
+.f-regular {
+  font-weight: 400;
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+
+//tablePipeStyle
+
+.active {
+  span {
+    color: #36cf82;
+
+    background: #36cf822e;
+    .pointer {
+      background: #36cf82 !important;
+    }
+  }
+}
+
+.pending {
+  span {
+    color: #f29d42;
+
+    background: #f29d424d;
+
+    .pointer {
+      background: #f29d42 !important;
+    }
+  }
+}
+
+//formControl
+button:focus,
+select:focus,
+input:focus {
+  box-shadow: none;
+  box-shadow: rgb(171 176 181 / 20%) 0px 8px 24px !important;
+}

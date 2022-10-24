@@ -1,0 +1,234 @@
+.filter-bar {
+  display: flex;
+  margin-bottom: 30px;
+
+  .bars {
+    height: 40px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: var(--darkGray);
+    background: white;
+
+    button:focus {
+      border: 1px solid white !important;
+    }
+
+    button:active {
+      border: 1px solid white !important;
+    }
+
+    .btn.show {
+      border: 1px solid white !important;
+    }
+    .dropdown-menu {
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      border: 0;
+
+      li + li {
+        border-top: 1px solid #ebebeb;
+      }
+      .dropdown-item {
+        img {
+          padding-right: 11px;
+        }
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        color: #3b3b3b;
+        padding-top: 6px;
+        padding-bottom: 6px;
+      }
+
+      .dropdown-item:hover {
+        color: var(--pink);
+      }
+
+      .dropdown-item:active {
+        background-color: var(--backgroudGray);
+      }
+      .dropdown-item:focus {
+        background-color: var(--backgroudGray);
+      }
+    }
+    .dropdown-toggle::after {
+      display: none;
+    }
+
+    .btn {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .bar1 {
+    margin-right: 28px;
+    width: 266px;
+    .date-bar {
+      height: 100%;
+      button:focus {
+        border: none !important;
+      }
+
+      button:active {
+        border: none !important;
+      }
+      .btn {
+        span.left {
+          padding-right: 3px;
+        }
+
+        span.center {
+          margin-right: 8px;
+        }
+
+        line-height: 2.2;
+        word-spacing: 3px;
+        padding-top: 8px;
+        display: flex;
+        justify-content: space-between;
+
+        color: var(--darkGray);
+
+        border: 0;
+      }
+    }
+  }
+
+  .bar2 {
+    width: 206px;
+    margin-right: 29px;
+
+    .type-bar {
+      height: 100%;
+      .btn {
+        display: flex;
+        justify-content: space-between;
+        line-height: 2.2;
+
+        span.center {
+          color: var(--darkGray);
+          padding-left: 2px;
+        }
+      }
+    }
+  }
+
+  .bar3 {
+    width: 328px;
+    margin-right: 32px;
+
+    .nameSearch-bar {
+      height: 100%;
+    }
+
+    input {
+      border: none;
+      height: 100%;
+      padding-left: 15px;
+      line-height: 14px;
+    }
+    input::placeholder {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      color: var(--darkGray);
+    }
+  }
+
+  .bar4 {
+    width: 190px;
+
+    .status-bar {
+      height: 100%;
+      .btn {
+        display: flex;
+        justify-content: space-between;
+        line-height: 2.2;
+        padding-right: 16px;
+        padding-left: 15px;
+
+        span.center {
+          color: var(--darkGray);
+        }
+      }
+    }
+  }
+
+  .bars:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .dropdown:focus {
+    border: 1px solid red !important;
+  }
+
+  .clear {
+    display: none;
+  }
+}
+
+//Media Queries
+
+@media (min-width: 1444px) {
+  .filter-bar {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .filter-bar {
+    display: block !important;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .bars {
+    width: 100% !important;
+    margin-bottom: 19px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .clear {
+    display: block !important;
+    text-align: right;
+    color: var(--pink);
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .filter-bar {
+    width: 80%;
+  }
+}
+
+@media (max-width: 440px) {
+  .filter-bar {
+    .bar1 {
+      span.center {
+        overflow: hidden;
+        max-width: 150px;
+      }
+    }
+  }
+}
+@media (max-width: 375px) {
+  .filter-bar {
+    width: 80%;
+
+    .bar1 {
+      span.center {
+        overflow: hidden;
+        max-width: 150px;
+      }
+    }
+  }
+}
