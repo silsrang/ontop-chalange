@@ -1,40 +1,40 @@
-# Ontop Challenge
+#OntopChallenge
 
-## Desafío:
+## Challenge:
 
-En el siguiente enlace de Figma [Figma Ontop](https://www.figma.com/file/l1IcP1dvCDLmlwBMRkJyY9/Untitled?node-id=0%3A1) hay 2 pantallas de la plataforma Ontop.
+In the following Figma link [Figma Ontop](https://www.figma.com/file/l1IcP1dvCDLmlwBMRkJyY9/Untitled?node-id=0%3A1) there are 2 screens of the Ontop platform.
 
-- Revisar dicho Figma y dejar comentarios de lo que usted considera que podria mejorar en el diseño.
+- Review said Figma and leave comments on what you think could improve the design.
 
-- Despues de clonar este proyecto, tu tarea será asegurarte que ambas pantallas en Angular esten
-  completamente iguales a Figma (pixel perfect web design).
+- After cloning this project, your task will be to make sure that both screens in Angular are
+  completely the same as Figma (pixel perfect web design).
 
-- Eres libre de modificar este proyecto a tu gusto y usar cualquier libreria externa que desees (Bootstrap, Material, etc).
+- You are free to modify this project to your liking and use any external library you want (Bootstrap, Material, etc).
 
-## Entregable:
+## Deliverable:
 
-- Necesitamos que subas a un repositorio de Github lo que has hecho para poder revisarlo, en base a tus resultados
-  programaremos otra reunión para seguir con el proceso.
+- We need you to upload what you have done to a Github repository so that we can review it, based on your results
+  We will schedule another meeting to continue the process.
 
-Algunas consideraciones adicionales:
+Some additional considerations:
 
-En este Challenge queremos ver tu capacidad de darte cuenta de las diferencias entre las maquetas de Angular
-y Figma por lo que el entregable no debe tener una funcionalidad especial ya que ese no es el objetivo de este paso.
+In this Challenge we want to see your ability to realize the differences between Angular mockups
+and Figma so the deliverable should not have any special functionality as that is not the goal of this step.
 
-Si tienes cualquier tipo de pregunta, no dudes en escribirnos, ¡estamos muy atentos para ayudarte!
+If you have any kind of question, do not hesitate to write to us, we are very attentive to help you!
 
-Esperamos tenerte en nuestro equipo 😺, saludos~!.
+We hope to have you in our team 😺, regards~!.
 
-### Tools:
+###Tools:
 
-Para este proyecto se uso:
+For this project I use:
 
 - `Angular 14+`
 - `Bootstrap 5+`
 
 ### Run Project:
 
-Usar los siguientes comandos:
+Use the following commands:
 
 - `npm install`
 - `ng serve -o`
