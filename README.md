@@ -4,7 +4,7 @@
 
 In the following Figma link [Figma Ontop](https://www.figma.com/file/l1IcP1dvCDLmlwBMRkJyY9/Untitled?node-id=0%3A1) there are 2 screens of the Ontop platform.
 
-- Review said Figma and leave comments on what you think could improve the design.
+- Please, review this figma and leave your feedback on what you think could improve the design.
 
 - After cloning this project, your task will be to make sure that both screens in Angular are
   completely the same as Figma (pixel perfect web design).
