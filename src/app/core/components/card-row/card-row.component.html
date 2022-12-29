@@ -15,8 +15,10 @@
               ]"
               class="main-list"
             >
-              {{ item.header }}
-
+            <div class="width-50p">
+              <p> {{ item.header }}</p>
+            </div>
+            <div  class="width-50p">
               <span *ngIf="item.field === 'actions'" class="action-group">
                 <div class="dropdown-center">
                   <a
@@ -82,6 +84,9 @@
                   {{ data[item.field] }}
                 </div>
               </span>
+            </div>
+      
+   
             </li>
           </ng-container>
         </ul>

@@ -146,10 +146,11 @@ body {
 .active {
   span {
     color: #36cf82;
-
+    display: flex;
     background: #36cf822e;
     .pointer {
       background: #36cf82 !important;
+      margin-right: 7px;
     }
   }
 }
@@ -157,11 +158,11 @@ body {
 .pending {
   span {
     color: #f29d42;
-
+    display: flex;
     background: #f29d424d;
-
     .pointer {
       background: #f29d42 !important;
+      margin-right: 7px;
     }
   }
 }
@@ -171,5 +172,5 @@ button:focus,
 select:focus,
 input:focus {
   box-shadow: none;
-  box-shadow: rgb(171 176 181 / 20%) 0px 8px 24px !important;
+  box-shadow: none !important;
 }

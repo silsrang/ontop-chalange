@@ -1,5 +1,5 @@
 <div class="table-container">
-  <table class="table table-borderless borderless">
+  <table class="table table-borderless borderless ">
     <thead>
       <tr>
         <th scope="col" *ngFor="let key of ColData; index as i">
@@ -50,7 +50,7 @@
                   </svg>
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <li *ngFor="let action of Actions" (click)="$event.preventDefault(); $event.stopPropagation(); action.click(data, action)">
+                  <li *ngFor="let action of Actions" (click)="$event.preventDefault(); action.click(data, action)">
                     <a class="dropdown-item">
                       <span
                         ><img

@@ -28,6 +28,7 @@
         line-height: 24px;
         letter-spacing: 0.1px;
         width: 50%;
+        min-width: 110px;
       }
 
       .action-group {
@@ -89,7 +90,14 @@
     }
   }
 }
-
+:host::ng-deep {
+  p {
+    margin-bottom: 0;
+  }
+  .width-50p {
+    width: 50%;
+  }
+}
 //Media Query
 
 @media (max-width: 440px) {
